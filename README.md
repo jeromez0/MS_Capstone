@@ -11,4 +11,5 @@
 ### 3. set the pathway for the project 
    > source my_project_env/bin/activate
 
-
+### 4. install dependencies
+   > pip3 install -r requirements.txt

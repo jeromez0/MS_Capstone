@@ -8,7 +8,7 @@ class GatherData:
     #### __init__ function declares the proper excel file, caselog, and
     #### a list called self.information. This program will rely on nested lists.
     def __init__(self):
-        self.wb = load_workbook("0 GENERIC SWE LOG 2020.xlsx")
+        self.wb = load_workbook("Generic-Log.xlsx")
         self.caselog = self.wb["Current Caselog"]
         self.information = []
         self.fields = config.fields
@@ -108,7 +108,7 @@ class GatherData:
 class Analyticsdashboard:
 
     def __init__(self):
-        self.wb = load_workbook("0 GENERIC SWE LOG 2020.xlsx")      ### this is the generic log name
+        self.wb = load_workbook("Generic-Log.xlsx")      ### this is the generic log name
         self.caselog = self.wb["Current Caselog"]                   ### this is the sheet name
 
         self.counteroptions = {'A': 0,'B': 0, 'C1': 0, 'C2': 0, 'C': 0} ### the counteroption dictionary will count up all the possible options in the log

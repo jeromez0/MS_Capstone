@@ -35,7 +35,7 @@ class loginscreen:
         self.exitbutton = Button(self.frame, text = "Exit", padx= 30, command = self.frame.master.destroy)
         self.exitbutton.grid(row = 3, column = 2)
     #######
-    def peasant(self):
+    def present(self):
         message = messagebox.showerror("incorrect pass", "try again" )
 
     #### this is the function that determines if the user logs in or backs out
@@ -51,13 +51,13 @@ class loginscreen:
                 main()                          ### start up the main program
             ### if the login and password don't match up, then open the message box
             else:
-                self.peasant()
+                self.present()
                 config.count = config.count + 1
                 if config.count == 5:       ### you get 5 chances to login otherwise the app will close
                     self.frame.master.destroy()
         ### if the login and password don't match up, then open the message box
         else:
-            self.peasant()
+            self.present()
             config.count = config.count + 1
             ### you get 5 chances to login otherwise the app will close
             if config.count == 5:

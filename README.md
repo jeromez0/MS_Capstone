@@ -13,3 +13,14 @@
 
 ### 4. install dependencies
    > pip3 install -r requirements.txt
+
+
+![login-screen](https://github.com/estrangedwriter/MS_Capstone/blob/master/images/login-screen.png)
+#### Figure 1: Login Screen
+
+![GUI](https://github.com/estrangedwriter/MS_Capstone/blob/master/images/GUI.png)
+#### Figure 2: GUI
+
+![analytics](https://github.com/estrangedwriter/MS_Capstone/blob/master/images/analytics.png)
+#### Figure 3: Analytics
+

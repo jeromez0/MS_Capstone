@@ -1,4 +1,4 @@
-# Python Automation
+# INFM-211 Capstone
 
 ## setting up the development environment
 

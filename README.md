@@ -1,5 +1,7 @@
 # INFM-211 Capstone
 
+## video demonstration: https://www.youtube.com/watch?v=hsfWPrRL9zw&feature=youtu.be
+
 ## setting up the development environment
 
 ### 1. create a directory for the project
